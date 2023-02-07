@@ -24,7 +24,7 @@ namespace minesweeper
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            File.WriteAllText(@"C:/Users/grzes/Desktop/all\programs/minesweeper - final edition/minesweeper/TextFile1.txt", "difficulty: 8");
+            File.WriteAllText("../../../TextFile1.txt", "difficulty: 8");
             MainMenu mainMenu = new MainMenu();
             ((MainWindow)Application.Current.MainWindow).Content = mainMenu;
         }

@@ -6,8 +6,12 @@
         xmlns:local="clr-namespace:minesweeper"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Title="minesweeper"
+        Title="Minesweeper by dzes"
         ResizeMode="NoResize"
+        Height="Auto" Width="Auto"
+        SizeToContent ="WidthAndHeight"
+        Background="#FF202020"
+        Icon="C:\Users\grzes\source\repos\csharp-minesweeper\minesweeper\images\bombw.png"
         WindowStartupLocation="CenterScreen">
 
 </Window>
