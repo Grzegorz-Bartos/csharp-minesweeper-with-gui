@@ -11,7 +11,7 @@
         Height="Auto" Width="Auto"
         SizeToContent ="WidthAndHeight"
         Background="#FF202020"
-        Icon="C:\Users\grzes\source\repos\csharp-minesweeper\minesweeper\images\bombw.png"
+        Icon="pack://application:,,,/minesweeper;component/images/bombw.png"
         WindowStartupLocation="CenterScreen">
 
 </Window>
